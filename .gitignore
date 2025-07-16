@@ -1,0 +1,57 @@
+# Model files and checkpoints (too large for GitHub)
+results/
+*.safetensors
+*.pt
+*.bin
+*.pth
+
+# Large training datasets (keep smaller ones)
+# Note: "large" and "medium" datasets are actually small files (< 1MB) and are included
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Large data files (comment out if you want to include them)
+# *.csv
+
+# TensorBoard logs
+runs/
+logs/
+
+# Model outputs
+*.out
+*.err 
