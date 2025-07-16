@@ -1,4 +1,4 @@
-# BurkeLab: Density Sensitivity Prediction for DFT Functionals
+# Density Sensitivity Prediction for DFT Functionals
 
 A machine learning pipeline for predicting density functional sensitivity to dispersion corrections using fine-tuned GPT-2 models. This project focuses on computational chemistry applications, specifically analyzing the impact of D3(BJ) dispersion corrections on density functional theory (DFT) calculations.
 
@@ -247,12 +247,20 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @software{burklab_density_sensitivity,
-  title={BurkeLab: Density Sensitivity Prediction for DFT Functionals},
+  title={Density Sensitivity Prediction for DFT Functionals},
   author={[Your Name]},
   year={2025},
   url={[Repository URL]}
 }
 ```
+### This work is based on data + knowledge from the following paper:
+    ```
+    Correcting Dispersion Corrections with Density-Corrected DFT
+    
+    Minhyeok Lee, Byeongjae Kim, Mingyu Sim, Mihira Sogal, Youngsam Kim, Hayoung Yu, Kieron Burke, and Eunji Sim
+    Journal of Chemical Theory and Computation 2024 20 (16), 7155-7167
+    DOI: 10.1021/acs.jctc.4c00689
+    ```
 
 ## ⚠️ Known Limitations
 
